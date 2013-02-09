@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-DEPLOYMENT_MODE = 'prod'
-COMPRESS_REVISION_NUMBER = '2.0'
+DEPLOYMENT_MODE = 'dev'
+COMPRESS_REVISION_NUMBER = '1.0'
 
 BLOG_PLATFORM = 'wordpress'  # Wordpress or tumblr
 
@@ -133,6 +133,6 @@ if DEPLOYMENT_MODE == 'dev':
     DEBUG = True
 else:
     DEBUG = False
-    SITE_ROOT_URI = 'bsiddiqui.herokuapp.com/'
+    SITE_ROOT_URI = '[ENTER PROD URL HERE] ex. http://rigoneri.herokuapp.com/'
 
 MEDIA_URL = SITE_ROOT_URI + 'static/'
