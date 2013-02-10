@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 DEPLOYMENT_MODE = 'dev'
-COMPRESS_REVISION_NUMBER = '1.0'
+COMPRESS_REVISION_NUMBER = '1.2'
 
-BLOG_PLATFORM = 'wordpress'  # Wordpress or tumblr
+BLOG_PLATFORM = 'tumblr'  # Wordpress or tumblr
 
 #Blog Integration: Tumblr
-TUMBLR_BLOG_URL = '[ENTER TUMBLR BLOG URL] ex. rigoneri.tumblr.com'
+TUMBLR_BLOG_URL = 'musinglyinclined.tumblr.com'
 TUMBLR_API_URL = 'http://api.tumblr.com/v2/blog/{0}'.format(TUMBLR_BLOG_URL)
-TUMBLR_API_KEY = '[ENTER TUMBLR API KEY HERE, SEE TUMBLR SETUP INSTRUCTIONS]'
+TUMBLR_API_KEY = 'oMLZBQ5YjKCKqC9gYGpcVWdbBk7FOOTHqJYorCd9IGfPTxBlfI'
 
 #Blog Integration: Wordpress
 WORDPRESS_BLOG_URL = 'musinglyinclined.wordpress.com'
