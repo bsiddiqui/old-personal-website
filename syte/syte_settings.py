@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 DEPLOYMENT_MODE = 'prod'
-COMPRESS_REVISION_NUMBER = '1.5'
+COMPRESS_REVISION_NUMBER = '1.7'
 
 BLOG_PLATFORM = 'tumblr'  # Wordpress or tumblr
 
